@@ -5,7 +5,7 @@ from math import cos, sin, pi
 import time as ti
 from multiprocessing import Pool
 
-def calculate_lyapunov(args,):
+def cl(args,):
     i, j = args
 
     return lyapunovCalculator(i, j)
@@ -14,7 +14,7 @@ def lyapunovFromRange(theta1_range, theta2_range):
     result_array = []
     if __name__ == "__main__":
         with Pool(processes=4) as pool:
-            results = pool.imap(calculate_lyapunov, [(i, j) for i in theta1_range for j in theta2_range])
+            results = pool.imap(cl, [(i, j) for i in theta1_range for j in theta2_range])
             for result in results:
                 print(result)
                 result_array.append(result)
