@@ -1,5 +1,5 @@
 import numpy as np
-from pendulum import Pendulum
+from .pendulum import Pendulum
 import time
 
 def grabPerturbed(di, df, perturbed_state, initial_state):
