@@ -24,3 +24,4 @@ if __name__ == "__main__":
         print("Specify your own coordinates, in the form:'x y'")
         start = list(map(int, input("Start Row and Col: ").split()))
         end = list(map(int, input("End Row and Col: ").split()))
+    main(start, end)
