@@ -34,5 +34,12 @@ class Pendulum:
 
         return dt * (k1 + 2*k2 + 2*k3 + k4)/6
     
+    def position(self):
+        x1 = sin(self.state[2])
+        y1 = cos(self.state[2])
+        x2 = x1 +  sin(self.state[3])
+        y2 = y1 + cos(self.state[2])
+        return (x1, y1), (x2, y2)  
+    
     def update(self, t, dt):
         self.state += self.RK4_step(self.state, t, dt)
