@@ -6,6 +6,8 @@ This is a demonstration of interactively dropping a double pendulum at various p
 - **Lyapunov Exponent Heatmap**: A heatmap that describes the sensitivity to initial conditions of each drop angle.
 - **Interactive Double Pendulum Simulation**: Hover over points on the heatmap and see the corresponding animations.
 
+## Visual Demonstration
+![doublePendulum](https://github.com/joeeliang/DoublePendulum/assets/103452146/83db917b-a8da-4d67-b7ab-7e8cfca05e4b)
 
 ## Installation
 1. Clone the repository
@@ -15,8 +17,6 @@ This is a demonstration of interactively dropping a double pendulum at various p
     pip install -r requirements.txt
     ```
 ## Usage
-
-
 1. Run the main script to start the interactive simulation:
     ```bash
     python main.py
@@ -27,7 +27,6 @@ This is a demonstration of interactively dropping a double pendulum at various p
 3. Press "u" to animate the corresponding double pendulum.
 
 ## Files
-
 - `main.py`: The main script to run the interactive simulation.
 - `3d.py: A three-dimensional version of the heatmap.
 - `animation.py`: Contains the methods to animate the double pendulum.
