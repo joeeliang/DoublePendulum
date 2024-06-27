@@ -8,8 +8,6 @@ This is a demonstration of interactively dropping a double pendulum at various p
 
 
 ## Installation
-
-
 1. Clone the repository
 
 2. Install the required packages:
