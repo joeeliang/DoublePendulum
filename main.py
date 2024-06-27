@@ -1,9 +1,6 @@
 import numpy as np 
-from numpy.linalg import inv
 from matplotlib import pyplot as plt
-import matplotlib
 import animation
-import sys
 def plot_lyapunov_heatmap(lyapunov_heatmap, theta1_range, theta2_range):
     vmin = np.min(lyapunov_heatmap)
     vmax = np.max(lyapunov_heatmap)
