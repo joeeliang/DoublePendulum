@@ -28,7 +28,7 @@ This is a demonstration of interactively dropping a double pendulum at various p
 
 ## Files
 - `main.py`: The main script to run the interactive simulation.
-- `3d.py: A three-dimensional version of the heatmap.
+- `3d.py`: A three-dimensional version of the heatmap.
 - `animation.py`: Contains the methods to animate the double pendulum.
 - `data.csv`: Contains the data of the Lyapunov exponents for different drop angles.
 - `requirements.txt`: List of Python packages required for the project.
