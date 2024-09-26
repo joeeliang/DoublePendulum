@@ -32,4 +32,5 @@ This is a demonstration of interactively dropping a double pendulum at various p
 - `animation.py`: Contains the methods to animate the double pendulum.
 - `data.csv`: Contains the data of the Lyapunov exponents for different drop angles.
 - `requirements.txt`: List of Python packages required for the project.
+- `lyapunov.pv`: The logic behind calculating the Lyapunov exponents for each dropping point, written in python.
 - `README.md`: This file.
