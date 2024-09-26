@@ -1,4 +1,4 @@
-__pycache__/
-venv/
-html/
-testing/
+__pycache__
+venv
+html
+testing
